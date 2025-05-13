@@ -1,25 +1,25 @@
 $(document).ready(function(){
 //anonymous function
-   $("h1").click(function(){
+   $("div").click(function(){
       $(this).css("color","green");    
    
    });
-   $("h1").mousedown(function(){
+   $("div").mousedown(function(){
       $(this).css("background-color","red");    
    
    });
 
-   $("h1").mouseup(function(){
+   $("div").mouseup(function(){
       $(this).css("background-color","transparent");    
    
    });
 
- $("h1").mouseenter(function(){
+ $("div").mouseenter(function(){
       $(this).css("color","black");    
    
    });
 
-   $("h1").mouseleave(function(){
+   $("div").mouseleave(function(){
       $(this).css("color","grey");
           
    
